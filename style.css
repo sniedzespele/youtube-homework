@@ -1,0 +1,42 @@
+@import url('fonts.css');
+
+body{
+    font-family: Roboto;
+}
+.content{
+    width: 250px;
+}
+.bottom{
+    width: 250px;
+}
+.dropdown, .youtube-logo {
+    margin: 20px 20px 10px 15px;
+position: relative;
+}
+ .home, .trending, .library,
+ .subscriptions, .history, .your-videos,
+ .watch-later, .liked-videos, .youtube-premium,
+ .gaming, .live, .settings, .report-history,
+ .help, .send-feedback, .show-more
+ {
+margin: 20px 20px 0px 15px;
+position: relative;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .google{
+    font-family: Roboto;
+    color: rgb(173, 173, 179);
+  }
+  .capitalize {
+        text-transform: uppercase;
+        margin: 20px 20px 0px 15px;
+  }
+  hr {
+      color: #E5E5E5;
+  }
