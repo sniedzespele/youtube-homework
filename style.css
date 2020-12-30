@@ -2,17 +2,23 @@
 
 body{
     font-family: Roboto;
+    margin: 13px 0px 0px 0px;
 }
-.content{
-    width: 250px;
+.content {
+    width: 100%;
 }
 .bottom{
     width: 250px;
 }
-.dropdown, .youtube-logo {
-    margin: 20px 20px 10px 15px;
-position: relative;
+.top-menu {
+    display: flex;
+    margin-left: 26px;
+    margin-bottom: 45px;
 }
+.top-menu li {
+    float: left;
+}
+
  .home, .trending, .library,
  .subscriptions, .history, .your-videos,
  .watch-later, .liked-videos, .youtube-premium,
@@ -40,3 +46,59 @@ ul {
   hr {
       color: #E5E5E5;
   }
+
+
+/*lose
+@import url('fonts.css');
+
+body{
+    font-family: Roboto;
+    margin: 13px 0px 0px 0px;
+}
+.content {
+    width: 100%;
+}
+.top-menu {
+    display: flex;
+    width: 100%;
+    margin-left: 26px;
+    margin-bottom: 45px;
+}
+.dropdown {
+    margin-right: 28px;
+}
+
+
+.side-menu {
+    width: 281px;
+    margin-left: 26px;
+}
+.bottom{
+    width: 250px;
+    margin-left: 26px;
+}
+
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  .google{
+    font-family: Roboto;
+    color: rgb(173, 173, 179);
+  }
+  .capitalize {
+        text-transform: uppercase;
+        margin: 20px 20px 0px 15px;
+  }
+  hr {
+      color: #E5E5E5;
+  }
+  */
